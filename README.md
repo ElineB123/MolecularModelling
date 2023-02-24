@@ -44,4 +44,6 @@ updated, we remap the coordinates back inside the box, based on the center of ma
 molecule. After this remapping, the velocities are updated and the simulation is ready for a new
 round. Every round of the simulation, the coordinates of all atoms, as well as the energies and temperature are written in files.
 
+The results from the files were analyzed with the AnalyzingEnergyResults.py and ... files.
+
 A flowchart of the code can be found in this repository as well.
